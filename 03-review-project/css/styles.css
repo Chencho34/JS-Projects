@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body{
+    background-image: url("/svg/bg.svg");
+    background-color: rgba(30, 30, 30, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+    text-align: center; 
+    color: white;
+    /* filter: blur(1px); */
+    
+}
+.name__proyect{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.title__underline{
+    height: 3px;
+    width: 50%;
+    background-color: #ec4600;
+}
+
+.review__container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.review__containt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    /* height: 400px; */
+    padding: 25px;
+    /* background-color: red; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    /* box-shadow: 0 0 20px rgba(43, 42, 42, 0.6); */
+    transition: box-shadow .2s;
+    border-radius: 20px;
+}
+
+.review__containt:hover{
+    /* cursor: pointer; */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+    transition: box-shadow ease-in .4s;
+}
+
+.review__img__container{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 25px;
+}
+.review__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+
+.review__texts{
+    text-align: center;
+    /* background-color: white; */
+    height: 200px;
+    overflow: hidden;
+}
+
+.review__name{
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 6px;
+}
+
+.review__job{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.review__info{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.buttons{
+    margin-bottom: 15px;
+    display: flex;
+    gap: 30px;
+}
+
+.prev__btn, .next__btn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 40%;
+    font-size: 20px;
+    background-color: #ec4600;
+    width: 25px;
+    height: 24px;
+    
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    transition: background-color ease-in .4s;
+
+}
+
+
+
+.prev__btn:hover, .next__btn:hover{
+    background: #752806;
+    /* transition: background; */
+}
+
+.random__btn{
+    cursor: pointer;
+    background: #ec4600;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    transition: background ease-in-out .4s;
+}
+
+.random__btn:hover{
+    background: #752806;
+}

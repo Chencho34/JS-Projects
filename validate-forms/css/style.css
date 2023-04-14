@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);  */
+    background-image: url('../Breaking\ Bad\ Camper\ HD\ wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-; */
+    /* background: white; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2{
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+em{
+    font-size: 1.5em;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+}
+
+.form{
+    background-color: rgba(255, 255, 255, 0.205);
+    /* opacity: 0.1; */
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    /* height: 400px; */
+    width: 350px;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 0 15px white;
+    border: solid 1px white;
+
+}
+
+.invalid {
+    border: solid 1px red;
+    box-shadow: 0 0 5px red;
+}
+
+.error{
+    color: red;
+    display: block;
+    /* height: 40px; */
+}
+
+input{
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.205);
+
+
+}
+
+
+button{
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.525);
+
+    height: 40px;
+    width: 60%;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
